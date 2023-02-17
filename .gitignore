@@ -63,3 +63,6 @@ yarn-error.log
 .metro-health-check*
 
 yarn.lock
+
+ConfigProject.md
+ConfigGGSignIn.md

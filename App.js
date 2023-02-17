@@ -1,12 +1,16 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import {View, Text} from 'react-native';
+import React from 'react';
+import {color} from './src/app/utils/Css';
+import SafeKeyComponent from './src/app/components/safe_area/SafeKeyComponent';
 
 const App = () => {
   return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
+    <SafeKeyComponent>
+      <View>
+        <Text>Hello</Text>
+      </View>
+    </SafeKeyComponent>
+  );
+};
 
-export default App
+export default App;
