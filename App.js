@@ -7,7 +7,7 @@ const App = () => {
   return (
     <SafeKeyComponent>
       <View>
-        <Text>Hello</Text>
+        <Text>Hello I'm Hai'</Text>
       </View>
     </SafeKeyComponent>
   );
