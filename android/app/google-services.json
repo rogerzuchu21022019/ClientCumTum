@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "8392071542",
+    "project_id": "cumtum-35a73",
+    "storage_bucket": "cumtum-35a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8392071542:android:cefce44ad7118f1c7a4257",
+        "android_client_info": {
+          "package_name": "com.cumtum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8392071542-l9126u0mn57ed1vhp4no8hfpqogeofn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cumtum",
+            "certificate_hash": "d90b179091ffc9d8e9f40adbe1fb9b921d767c5c"
+          }
+        },
+        {
+          "client_id": "8392071542-qv0h87gk534eib9b23gf90act35021if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLqlNJ_O-gUwJDfuB4Joyq8SkqAjNrpgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8392071542-f6r5mq3j0i0j6gsev27fr0nivmu2ansf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "8392071542-t639pcts126bcbb45t5nuof8i1j8f6da.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "namvt.dev.cumtum"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
