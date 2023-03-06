@@ -1,12 +1,12 @@
+//googlesignin in client-side
 import auth from '@react-native-firebase/auth';
 import {
   GoogleSignin,
   GoogleSigninButton,
   statusCodes,
 } from '@react-native-google-signin/google-signin';
-import {View, Text} from 'react-native';
+import {View, Text, Linking} from 'react-native';
 import React, {useState} from 'react';
-
 import {AxiosInstance} from '../api/AxiosInstance';
 
 const GoogleSignIn = ({navigation}) => {
@@ -28,24 +28,30 @@ const GoogleSignIn = ({navigation}) => {
       console.log('🚀 ~ file: GoogleSignIn.js:24 ~ signIn ~ user:', user);
       console.log('🚀 ~ file: GoogleSignIn.js:24 ~ signIn ~ idToken:', idToken);
       setUserInfo(user);
-      // Send the ID token to your server
-      const res = await AxiosInstance().post(`/auth/google`, {
-        idToken,
-      });
-      const res1 = await AxiosInstance().get(`/auth/google/callback`);
+      verifyGoogleToken(idToken);
 
-      // Create a Google credential with the token
       const googleCredential = auth.GoogleAuthProvider.credential(idToken);
-      navigation.navigate('Home', {user});
+      console.log("🚀 ~ file: GoogleSignIn.js:34 ~ signIn ~ googleCredential:", googleCredential)
+      navigation.navigate('Callback');
       // Sign-in the user with the credential
-      return auth().signInWithCredential(googleCredential);
+      // return auth().signInWithCredential(googleCredential);
+      
     } catch (error) {
       // Handle any errors that occur during the sign-in process
       console.error(error);
     }
   };
   const [userInfo, setUserInfo] = useState(null);
-
+  const verifyGoogleToken = async idToken => {
+    try {
+      const response = await AxiosInstance().get(
+        `/auth/google?idToken=${idToken}`,
+      );
+      console.log(response); // this should log the user object created by Passport
+    } catch (error) {
+      console.error(error);
+    }
+  };
   return (
     <View>
       <GoogleSigninButton

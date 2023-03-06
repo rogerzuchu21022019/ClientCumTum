@@ -7,6 +7,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from './HomeScree';
 import LoginScreen from './Login';
+import GoogleCallback from './GoogleCallBack';
 
 const App = () => {
   const Stack = createNativeStackNavigator();
@@ -15,6 +16,7 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Callback" component={GoogleCallback} />
       </Stack.Navigator>
     </NavigationContainer>
   );
