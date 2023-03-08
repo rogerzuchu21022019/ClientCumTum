@@ -185,7 +185,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				CAEF4BD1BC92AE48FDDDCFE8 /* [CP] Copy Pods Resources */,
-				53A7B23585DE54795C5D99BC /* [CP-User] [RNFB] Core Configuration */,
+				45D9998FC416A5D6A3708336 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -269,7 +269,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		53A7B23585DE54795C5D99BC /* [CP-User] [RNFB] Core Configuration */ = {
+		45D9998FC416A5D6A3708336 /* [CP-User] [RNFB] Core Configuration */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

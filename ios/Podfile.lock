@@ -15,12 +15,12 @@ PODS:
     - React-Core (= 0.71.2)
     - React-jsi (= 0.71.2)
     - ReactCommon/turbomodule/core (= 0.71.2)
-  - Firebase/Auth (10.5.0):
+  - Firebase/Auth (10.6.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 10.5.0)
-  - Firebase/CoreOnly (10.5.0):
-    - FirebaseCore (= 10.5.0)
-  - FirebaseAuth (10.5.0):
+    - FirebaseAuth (~> 10.6.0)
+  - Firebase/CoreOnly (10.6.0):
+    - FirebaseCore (= 10.6.0)
+  - FirebaseAuth (10.6.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
@@ -28,7 +28,7 @@ PODS:
   - FirebaseAuthUI (12.3.0):
     - FirebaseAuth (< 11.0, >= 8.0)
     - FirebaseCore
-  - FirebaseCore (10.5.0):
+  - FirebaseCore (10.6.0):
     - FirebaseCoreInternal (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/Logger (~> 7.8)
@@ -406,11 +406,11 @@ PODS:
     - React-Core
     - SDWebImage (~> 5.11.1)
     - SDWebImageWebPCoder (~> 0.8.4)
-  - RNFBApp (17.3.1):
-    - Firebase/CoreOnly (= 10.5.0)
+  - RNFBApp (17.3.2):
+    - Firebase/CoreOnly (= 10.6.0)
     - React-Core
-  - RNFBAuth (17.3.1):
-    - Firebase/Auth (= 10.5.0)
+  - RNFBAuth (17.3.2):
+    - Firebase/Auth (= 10.6.0)
     - React-Core
     - RNFBApp
   - RNFlashList (1.4.1):
@@ -617,10 +617,10 @@ SPEC CHECKSUMS:
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
   FBLazyVector: d58428b28fe1f5070fe993495b0e2eaf701d3820
   FBReactNativeSpec: 225fb0f0ab00493ce0731f954da3658638d9b191
-  Firebase: 3d6637234ab163e31852834617b4fe1df3b7af6d
-  FirebaseAuth: 1028326bcaa7a61391386e74b9078cc558ae14f1
+  Firebase: f13680471b021937f2230ea8503c7809d8c29806
+  FirebaseAuth: 743e5cd568af59d6d99a91ea9300843672515cf7
   FirebaseAuthUI: 9fa83d7dd7bad0f0eb20a9682f7e649c98e8f644
-  FirebaseCore: 324b8d182d9ff7e3f6d1fa2f04b082d1c7a3e366
+  FirebaseCore: fa80ad16a62d52f67274b5b88304c3a318bbf9a4
   FirebaseCoreInternal: c7cd505e2136811096b225ac388d6254a2622362
   FirebaseEmailAuthUI: 93c49123133a5ff934e05d15c51462ed0f12ee0a
   FirebaseOAuthUI: 7df89aca072aaba79a63f8cabb0183a2e818c3d3
@@ -666,8 +666,8 @@ SPEC CHECKSUMS:
   ReactCommon: cef15901c6c18404881a89fd84b75ff4da2257c9
   RNCAsyncStorage: 8616bd5a58af409453ea4e1b246521bb76578d60
   RNFastImage: 5c9c9fed9c076e521b3f509fe79e790418a544e8
-  RNFBApp: 159f756a612af7fbcbe56e1556c5f3acb6efbf9b
-  RNFBAuth: 576541a39864ea9f22c3e051505d3ba5686270bd
+  RNFBApp: 3bf62629c41ef65d82e763c25aeb77cdfa63bfae
+  RNFBAuth: 97bf82a2b26e061a98befd948fee79a7a750b0e7
   RNFlashList: 8ec7f7454721145fe84566bb9e88bcf58981c9fe
   RNGoogleSignin: 22e468a9474dbcb8618d8847205ad4f0b2575d13
   RNImageCropPicker: 14fe1c29298fb4018f3186f455c475ab107da332

@@ -8,6 +8,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from './HomeScree';
 import LoginScreen from './Login';
 import GoogleCallback from './GoogleCallBack';
+import MyWebView from './WebViewScreen';
 
 const App = () => {
   const Stack = createNativeStackNavigator();
@@ -17,6 +18,7 @@ const App = () => {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Callback" component={GoogleCallback} />
+        <Stack.Screen name="Web" component={MyWebView} />
       </Stack.Navigator>
     </NavigationContainer>
   );
